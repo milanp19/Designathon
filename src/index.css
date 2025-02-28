@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Satoshi", "sans-serif";
+  --color-background: #000336;
+  --color-text: #fff;
+  --color-accent: #ED9745;
+  --font-designer-font: url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+}
