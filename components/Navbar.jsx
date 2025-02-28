@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div>
       <ul className='flex justify-center items-center space-x-8'>
-        <li>Home</li>
+        <li><a>Home</a></li>
         <li>.</li>
         <li>About</li>
         <li>.</li>

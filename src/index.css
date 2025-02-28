@@ -5,5 +5,24 @@
   --color-background: #000336;
   --color-text: #fff;
   --color-accent: #ED9745;
-  --font-designer-font: url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+}
+
+@font-face {
+  font-family: "Magnetar";
+  src: url("/src/assets/fonts/Magnetar.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Conthrax-SemiBold";
+  src: url("/src/assets/fonts/Conthrax-SemiBold.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Magnetar", sans-serif;
+}
+
+.designathon p {
+  font-family: "Conthrax-SemiBold", sans-serif;
 }
